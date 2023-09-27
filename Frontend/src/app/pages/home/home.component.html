@@ -1,6 +1,12 @@
-<div class="container">
-  <h1>Bem-vindo à minha aplicação analítica</h1>
-  <p>Aqui você encontrará informações úteis e análises importantes.</p>
-  <button routerLink="/tabela">Ver Tabela</button>
-  <button routerLink="/grafico">Ver Gráfico</button>
-</div>
+<mat-card class="container">
+  <mat-card-header>
+    <mat-card-title>Bem-vindo à minha aplicação analítica</mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    <p>Aqui você encontrará informações úteis e análises importantes.</p>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-raised-button class="primary-button" routerLink="/tabela">Ver Tabela</button>
+    <button mat-raised-button class="accent-button" routerLink="/grafico">Ver Gráfico</button>
+  </mat-card-actions>
+</mat-card>

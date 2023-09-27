@@ -7,20 +7,27 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
 import { TabelaComponent } from './components/tabela/tabela.component';
 import { GraficoComponent } from './components/grafico/grafico.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+import {MatCardModule} from "@angular/material/card";
+import { ModalComponent } from './components/modal/modal.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     TabelaComponent,
-    GraficoComponent
+    GraficoComponent,
+    ModalComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    RouterModule
+    RouterModule,
+    BrowserAnimationsModule,
+    MatCardModule
   ],
-  providers: [],
+  providers: [ ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -1,13 +1,19 @@
 const express = require('express');
+const cors = require('cors');
+
 const bodyParser = require('body-parser');
 
 const app = express();
 const port = process.env.PORT || 3000;
 
-// Middleware para lidar com solicitações JSON
-app.use(bodyParser.json());
+app.use(cors({
+  origin: 'http://localhost:4200',
+  credentials: true,
+  
+},
+bodyParser.json()))
 
-// Seu objeto de dados
+
 const data = {
     "summary":{
       "totalQuantity":1546,
@@ -580,17 +586,17 @@ const data = {
   }
 
 
-// Rota para obter os dados resumidos
+
 app.get('/summary', (req, res) => {
   res.json(data.summary);
 });
 
-// Rota para obter os itens
+
 app.get('/items', (req, res) => {
   res.json(data.items);
 });
 
-// Iniciar o servidor
+
 app.listen(port, () => {
   console.log(`Servidor API está rodando na porta ${port}`);
 });

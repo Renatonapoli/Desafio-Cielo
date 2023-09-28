@@ -11,7 +11,8 @@ const routes: Routes = [
   },
   { 
     path: 'tabela', 
-    component: TabelaComponent 
+    component: TabelaComponent,
+   
   },
   { 
     path: 'grafico', 

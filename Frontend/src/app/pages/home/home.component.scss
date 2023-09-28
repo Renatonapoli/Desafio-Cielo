@@ -1,13 +1,15 @@
 .container {
-  max-width: 400px;
+  max-width: 800px;
   margin: 2rem auto;
   text-align: center;
 }
 
 mat-card {
+  align-items: center;
+  background-color: white;
   margin-top: 50px;
   padding: 20px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 16px rgba(0, 0, 0, 0.1);
 }
 
 mat-card-title {
@@ -24,6 +26,10 @@ mat-card-actions {
 }
 
 .primary-button {
+  padding: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
   background-color: #007bff; /* Cor de fundo do botão primário */
   color: #fff; /* Cor do texto */
   margin-right: 20px;
@@ -31,6 +37,10 @@ mat-card-actions {
 
 /* Estilização para o botão "Ver Gráfico" */
 .accent-button {
+  padding: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
   background-color: #ffc107; /* Cor de fundo do botão secundário */
   color: #000; /* Cor do texto */
 }

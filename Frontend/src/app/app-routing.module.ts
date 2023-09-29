@@ -6,7 +6,7 @@ import { GraficoComponent } from './components/grafico/grafico.component';
 
 const routes: Routes = [
   { 
-    path: '', 
+    path: `''`, 
     component: HomeComponent 
   },
   { 

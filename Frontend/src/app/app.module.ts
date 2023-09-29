@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule } from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
+import { NgChartsModule } from 'ng2-charts';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -14,6 +15,7 @@ import {MatCardModule} from "@angular/material/card";
 import { ModalComponent } from './components/modal/modal.component'
 import { MatPaginatorModule } from '@angular/material/paginator'
 import {MatTableModule} from '@angular/material/table'
+
 
 
 @NgModule({
@@ -33,6 +35,7 @@ import {MatTableModule} from '@angular/material/table'
     MatCardModule,
     MatPaginatorModule,
     MatTableModule,
+    NgChartsModule ,
 
   ],
   providers: [ ],

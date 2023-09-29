@@ -1,1 +1,12 @@
-<p>grafico works!</p>
+<div class="container">
+  <h2>Gráfico de Barras</h2>
+  <div style="display: block;">
+    <canvas baseChart
+            [datasets]="barChartData"
+            [labels]="barChartLabels"
+            [options]="barChartOptions"
+            [legend]="barChartLegend"
+            [type]="barChartType">
+    </canvas>
+  </div>
+</div>

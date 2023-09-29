@@ -39,6 +39,12 @@ Para utilizar e testar o projeto, esteja em um computador com Node Js instalado 
 ```
 git clone https://github.com/Renatonapoli/Desafio-Cielo.git
 ```
+Caso não consiga pelo git clone ou esteja dando algum problema interno no github, baixe o arquivo pelo zip. Após baixar o arquivo, descompacte e sigo os passos abaixo.
+
+<div style="width:100%; display:flex; align-items:center; gap:16px">
+    <img src="./Frontend//src//assets/zip.png" width="30%">
+</div>
+
 2 Abra dois terminais em sua IDE de preferência, aqui eu utlizo o VsCode. Em seguida abra dois terminais e acesse o projeto com o seguinte comando
 ```
 No primeiro terminal - cd Frontend (Para ter acesso ao frontend)

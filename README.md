@@ -1,11 +1,11 @@
 # DESAFIO CIELO
 
-![GitHub code size](https://github.com/Renatonapoli/Desafio-Cielo)
+![GitHub code size](https://img.shields.io/github/languages/code-size/Desafio-Cielo)
 
 > Esta é uma aplicação desenvolvida para o bootcamp da Cielo, com intuito de comprovar conhecimentos em frontend e sendo uma das partes da avaliação do processo seletivo.
 
 <div style="width:100%; display:flex; align-items:center; gap:16px">
-    <img src="./assets/home.png" width="80%">
+    <img src="./Frontend//src//assets/home.png" width="80%">
 </div>
 
 ## Detalhes do aplicativo

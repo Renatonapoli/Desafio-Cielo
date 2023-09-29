@@ -1,6 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
 import { TabelaComponent } from './tabela.component';
+import { MatPaginatorModule } from '@angular/material/paginator'; // Importe o MatPaginatorModule
+import { HttpClientModule } from '@angular/common/http'
 
 describe('TabelaComponent', () => {
   let component: TabelaComponent;
@@ -8,11 +9,12 @@ describe('TabelaComponent', () => {
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [TabelaComponent]
+      declarations: [TabelaComponent],
+      imports: [MatPaginatorModule, HttpClientModule], // Adicione o MatPaginatorModule aqui
     });
+
     fixture = TestBed.createComponent(TabelaComponent);
     component = fixture.componentInstance;
-    fixture.detectChanges();
   });
 
   it('should create', () => {

@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
 import { GraficoComponent } from './grafico.component';
+import { HttpClientTestingModule } from '@angular/common/http/testing'; // Importe o HttpClientTestingModule
 
 describe('GraficoComponent', () => {
   let component: GraficoComponent;
@@ -8,11 +8,12 @@ describe('GraficoComponent', () => {
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [GraficoComponent]
+      declarations: [GraficoComponent],
+      imports: [HttpClientTestingModule], // Adicione HttpClientTestingModule aqui
     });
+
     fixture = TestBed.createComponent(GraficoComponent);
     component = fixture.componentInstance;
-    fixture.detectChanges();
   });
 
   it('should create', () => {

@@ -84,4 +84,4 @@ http://localhost:4200/
 ## 🧑‍💻 Renato Napoli Guimarães
 
 [<img
-    src="https://media.licdn.com/dms/image/D4D03AQFKUNoZV-JIsw/profile-displayphoto-shrink_200_200/0/1683723488282?e=1701302400&v=beta&t=c-a8HxaExJzXos5Mb0BnzoPD62KLOg9FUX_dcav6PX4" />](https://www.linkedin.com/in/renato-napoli/)
+    src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />](https://www.linkedin.com/in/renato-napoli/)

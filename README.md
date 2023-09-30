@@ -16,7 +16,7 @@ Esses dados estão sendo consumidos da API que se encontra dentro da pasta Backe
 ## 🚀 Melhorias futuras
 - [ ] - Paginação
 
-Infelizmente não consegui tempo para finalizar esta etapa, auxiliando trabalho durante a aula e ao mesmo tempo desenvolvendo o projeto.
+Infelizmente não consegui tempo para finalizar esta etapa, conciliando trabalho durante a aula e ao mesmo tempo desenvolvendo o projeto.
 
 ## Tecnologias utilizadas
 

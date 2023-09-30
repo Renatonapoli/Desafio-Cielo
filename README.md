@@ -49,28 +49,43 @@ OBS: Verifique se possui duas pastas dentro do projeto, Frontend e Backend. Feit
 
 
 2 Abra dois terminais em sua IDE de preferência, aqui eu utlizo o VsCode. Em seguida abra dois terminais e acesse o projeto com o seguinte comando
-```
-No primeiro terminal - cd Frontend (Para ter acesso ao frontend)
 
-No segundo terminal - cd Backend (Para ter acesso ao backend)
+No primeiro terminal 
+
+```
+cd Frontend
+```
+No segundo terminal 
+
+```
+cd Backend
 ```
 
 Se baixou o projeto pelo download.zip vai precisar acessar esse caminho, caso não tenha entrado direto pela sua IDE na segunda pasta com o mesmo nome que gerou ao fazer o download.
 
+```
 cd Desafio-Cielo-develop/Frontend
-
+```
+```
 cd Desafio-Cielo-develop/Backend
 ```
 
-3 Instale as dependências necessárias com o comando
+3 Instale as dependências necessárias digitando o este comando nos dois terminais
+
 ```
-npm install (Digite nos dois terminais, dentro da pasta Frontend e Backend)
+npm install
 ```
+
 4 No terminal Frontend digite o comando
+
 ```
-npm start - Irá rodar tanto o frontend quanto o backend simultâneamente.
+npm start
 ```
+
+OBS: Com este comando irá rodar o backend e o frontend simultaneamente.
+
 6 Acesse o projeto
+
 ```
 http://localhost:4200/
 ```

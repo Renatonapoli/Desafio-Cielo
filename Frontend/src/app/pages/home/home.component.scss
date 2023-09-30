@@ -26,21 +26,39 @@ mat-card-actions {
 }
 
 .primary-button {
+  font-size: large;
+  font-family: 'Roboto';
   padding: 1rem;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  background-color: #007bff; /* Cor de fundo do botão primário */
-  color: #fff; /* Cor do texto */
+  background-color: #007bff; 
+  color: #fff;
   margin-right: 20px;
+  transition: background-color 0.3s;
+  text-decoration: none;
+
+  }
+  .primary-button:hover {
+    background-color: rgb(86, 86, 225);
+  }
+
+
+
+
+.accent-button {
+  font-size: large;
+  font-family: 'Roboto';
+  text-decoration: none;
+  padding: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #ffc107; 
+  color: #000; 
+  transition: background-color 0.3s;
 }
 
-/* Estilização para o botão "Ver Gráfico" */
-.accent-button {
-  padding: 1rem;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  background-color: #ffc107; /* Cor de fundo do botão secundário */
-  color: #000; /* Cor do texto */
+.accent-button:hover { 
+  background-color: #daeb44;
 }

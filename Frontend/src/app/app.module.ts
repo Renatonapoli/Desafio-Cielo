@@ -12,7 +12,6 @@ import { GraficoComponent } from './components/grafico/grafico.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import {MatCardModule} from "@angular/material/card";
-import { ModalComponent } from './components/modal/modal.component'
 import { MatPaginatorModule } from '@angular/material/paginator'
 import {MatTableModule} from '@angular/material/table'
 
@@ -24,7 +23,7 @@ import {MatTableModule} from '@angular/material/table'
     HomeComponent,
     TabelaComponent,
     GraficoComponent,
-    ModalComponent,
+    
   ],
   imports: [
     BrowserModule,

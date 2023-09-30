@@ -1,0 +1,14 @@
+<div class="container">
+  <h2>Gráfico de Barras</h2>
+  <div style="display: block;">
+    <canvas baseChart
+            [datasets]="barChartData"
+            [labels]="barChartLabels"
+            [options]="barChartOptions"
+            [legend]="barChartLegend"
+            [type]="barChartType"
+            role="img"
+            aria-label="Gráfico de Barras: Representação visual dos dados">
+    </canvas>
+  </div>
+</div>

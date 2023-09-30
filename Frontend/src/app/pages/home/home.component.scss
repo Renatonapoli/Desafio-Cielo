@@ -1,0 +1,64 @@
+.container {
+  max-width: 800px;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+mat-card {
+  align-items: center;
+  background-color: white;
+  margin-top: 50px;
+  padding: 20px;
+  box-shadow: 0 10px 16px rgba(0, 0, 0, 0.1);
+}
+
+mat-card-title {
+  font-size: 24px;
+}
+
+p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+mat-card-actions {
+  margin-top: 20px;
+}
+
+.primary-button {
+  font-size: large;
+  font-family: 'Roboto';
+  padding: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #007bff; 
+  color: #fff;
+  margin-right: 20px;
+  transition: background-color 0.3s;
+  text-decoration: none;
+
+  }
+  .primary-button:hover {
+    background-color: rgb(86, 86, 225);
+  }
+
+
+
+
+.accent-button {
+  font-size: large;
+  font-family: 'Roboto';
+  text-decoration: none;
+  padding: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #ffc107; 
+  color: #000; 
+  transition: background-color 0.3s;
+}
+
+.accent-button:hover { 
+  background-color: #daeb44;
+}

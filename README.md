@@ -1,27 +1,87 @@
-# ProjetoCielo
+# DESAFIO CIELO
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.3.
+![GitHub code size](https://img.shields.io/github/languages/code-size/Renatonapoli/Desafio-Cielo)
 
-## Development server
+> Esta é uma aplicação desenvolvida para o bootcamp da Cielo, com intuito de comprovar conhecimentos em frontend e sendo uma das partes da avaliação do processo seletivo.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+<div style="width:100%; display:flex; align-items:center; gap:16px">
+    <img src="./Frontend//src//assets/home.png" width="80%">
+</div>
 
-## Code scaffolding
+## Detalhes do aplicativo
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- O projeto consiste em uma aplicação analítica, na qual o usuário navegar entre as rotas clicando no botão Ver Tabela e Ver Gráfico.
+Esses dados estão sendo consumidos da API que se encontra dentro da pasta Backend. Dados fornecidos em Json pela equipe da Cielo.
 
-## Build
+## 🚀 Melhorias futuras
+- [ ] - Paginação
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Infelizmente não consegui tempo para finalizar esta etapa, conciliando trabalho durante a aula e ao mesmo tempo desenvolvendo o projeto.
 
-## Running unit tests
+## Tecnologias utilizadas
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- Scss (Ferramenta para produtividade na estilização)
+- chart.js (Biblioteca para desenvolvimento de Gráficos)
+- Angular versão 16.2.3
 
-## Running end-to-end tests
+## API
+- cors : 2.8.5
+- express": 4.18.2
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
+Usando a versão 18.17.1 do Node.js
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## 💻 Como usar o projeto
+Para utilizar e testar o projeto, esteja em um computador com Node Js instalado e siga as etapas abaixo:
+
+1 clone o projeto com o comando
+```
+git clone https://github.com/Renatonapoli/Desafio-Cielo.git
+```
+Caso não consiga pelo git clone ou esteja dando algum problema interno no github, baixe o arquivo pelo zip. Após baixar o arquivo, descompacte e sigo os passos abaixo.
+
+OBS: Verifique se possui duas pastas dentro do projeto, Frontend e Backend. Feito pelo git clone quanto pelo download.zip.
+
+<div style="width:100%; display:flex; align-items:center; gap:16px">
+    <img src="./Frontend//src//assets/zip.png" width="30%">
+</div>
+
+
+2 Abra dois terminais em sua IDE de preferência, aqui eu utlizo o VsCode. Em seguida abra dois terminais e acesse o projeto com o seguinte comando
+```
+No primeiro terminal - cd Frontend (Para ter acesso ao frontend)
+
+No segundo terminal - cd Backend (Para ter acesso ao backend)
+```
+
+Se baixou o projeto pelo download.zip vai precisar acessar esse caminho, caso não tenha entrado direto pela sua IDE na segunda pasta com o mesmo nome que gerou ao fazer o download.
+
+cd Desafio-Cielo-develop/Frontend
+
+cd Desafio-Cielo-develop/Backend
+```
+
+3 Instale as dependências necessárias com o comando
+```
+npm install (Digite nos dois terminais, dentro da pasta Frontend e Backend)
+```
+4 No terminal Frontend digite o comando
+```
+npm start - Irá rodar tanto o frontend quanto o backend simultâneamente.
+```
+6 Acesse o projeto
+```
+http://localhost:4200/
+```
+
+## 🌐 Links úteis
+[NodeJS](https://nodejs.org/en/download)
+[ng2-charts](https://valor-software.com/ng2-charts/)
+[Angular](https://angular.io/)
+
+
+## 🧑‍💻 Renato Napoli Guimarães
+
+[<img
+    src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />](https://www.linkedin.com/in/renato-napoli/)

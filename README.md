@@ -70,7 +70,7 @@ cd Desafio-Cielo-develop/Frontend
 cd Desafio-Cielo-develop/Backend
 ```
 
-3 Instale as dependências necessárias digitando o este comando nos dois terminais
+3 Instale as dependências necessárias digitando este comando nos dois terminais
 
 ```
 npm install

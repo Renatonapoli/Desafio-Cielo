@@ -36,7 +36,7 @@ export class TabelaComponent implements OnInit {
   loadItems() {
     this.dataService.getItems(this.pageNumber, this.pageSize).subscribe(data => {
       this.items = data;
-      this.dataSource.data = this.items; // Atribua o array de dados à propriedade data da fonte de dados
+      this.dataSource.data = this.items; 
     });
   }
 

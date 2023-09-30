@@ -9,7 +9,7 @@ describe('GraficoComponent', () => {
   beforeEach(() => {
     TestBed.configureTestingModule({
       declarations: [GraficoComponent],
-      imports: [HttpClientTestingModule], // Adicione HttpClientTestingModule aqui
+      imports: [HttpClientTestingModule],
     });
 
     fixture = TestBed.createComponent(GraficoComponent);

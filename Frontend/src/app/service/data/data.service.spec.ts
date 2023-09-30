@@ -9,17 +9,17 @@ describe('DataService', () => {
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      imports: [HttpClientTestingModule], // Importa o HttpClientTestingModule para lidar com solicitações HTTP falsas
+      imports: [HttpClientTestingModule], 
       providers: [DataService],
     });
 
-    // Inicializa o serviço e o HttpTestingController
+    
     service = TestBed.inject(DataService);
     httpMock = TestBed.inject(HttpTestingController);
   });
 
   afterEach(() => {
-    // Verifica se há solicitações HTTP pendentes e as limpa
+    
     httpMock.verify();
   });
 
@@ -37,16 +37,15 @@ describe('DataService', () => {
       "finalDate":"2021-05-26"
     };
 
-    // Faz uma solicitação falsa para o resumo e verifica a resposta
+   
     service.getSummary().subscribe((data) => {
       expect(data).toEqual(mockSummaryData);
     });
 
-    // Verifica se a solicitação HTTP está correta
+  
     const req = httpMock.expectOne('http://localhost:3000/summary');
     expect(req.request.method).toBe('GET');
 
-    // Envie uma resposta falsa
     req.flush(mockSummaryData);
   });
 
@@ -76,16 +75,16 @@ describe('DataService', () => {
         "status":"Aprovada"
     };
 
-    // Faz uma solicitação falsa para os itens e verifica a resposta
+   
     service.getItems(pageNumber, pageSize).subscribe((data) => {
       expect(data).toEqual(mockItemsData);
     });
 
-    // Verifica se a solicitação HTTP está correta
+
     const req = httpMock.expectOne(`http://localhost:3000/items?pageNumber=${pageNumber}&pageSize=${pageSize}`);
     expect(req.request.method).toBe('GET');
 
-    // Envie uma resposta falsa
+  
     req.flush(mockItemsData);
   });
 });

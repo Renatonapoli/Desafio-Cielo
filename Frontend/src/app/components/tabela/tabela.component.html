@@ -1,21 +1,22 @@
 <div class="container">
   <h2>Tabela de Itens</h2>
-  <p>Total de Itens: {{ summary?.totalQuantity }}</p>
+  <p>Total de Itens: <span id="totalQuantity"></span> {{ summary?.totalQuantity }}</p>
 
-  <table mat-table [dataSource]="dataSource">
- 
+  <table mat-table [dataSource]="dataSource" aria-labelledby="tableHeading">
+    <caption id="tableHeading">Tabela de Itens</caption>
+    
     <ng-container matColumnDef="id">
       <th mat-header-cell *matHeaderCellDef>ID</th>
       <td mat-cell *matCellDef="let item">{{ item.id }}</td>
     </ng-container>
 
     <ng-container matColumnDef="Bandeira Cartão">
-      <th mat-header-cell *matHeaderCellDef>Bandeira Cartão</th>
+      <th mat-header-cell *matHeaderCellDef>cardBrand</th>
       <td mat-cell *matCellDef="let item">{{ item.cardBrand }}</td>
     </ng-container>
     
     <ng-container matColumnDef="Crédito">
-      <th mat-header-cell *matHeaderCellDef>Crédito</th>
+      <th mat-header-cell *matHeaderCellDef>paymentType</th>
       <td mat-cell *matCellDef="let item">{{ item.paymentType }}</td>
     </ng-container>
     

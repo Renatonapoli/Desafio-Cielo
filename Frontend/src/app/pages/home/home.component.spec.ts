@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { HomeComponent } from './home.component';
-import { MatCardModule } from '@angular/material/card'; // Importe o MatCardModule
+import { MatCardModule } from '@angular/material/card'; 
 
 describe('HomeComponent', () => {
   let component: HomeComponent;
@@ -9,7 +9,7 @@ describe('HomeComponent', () => {
   beforeEach(() => {
     TestBed.configureTestingModule({
       declarations: [HomeComponent],
-      imports: [MatCardModule], // Adicione o MatCardModule aqui
+      imports: [MatCardModule], 
     });
 
     fixture = TestBed.createComponent(HomeComponent);

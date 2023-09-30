@@ -41,17 +41,27 @@ git clone https://github.com/Renatonapoli/Desafio-Cielo.git
 ```
 Caso não consiga pelo git clone ou esteja dando algum problema interno no github, baixe o arquivo pelo zip. Após baixar o arquivo, descompacte e sigo os passos abaixo.
 
+OBS: Verifique se possuia duas pastas dentro do projeto, Frontend e Backend. Feito pelo git clone quanto pelo download.zip.
+
 <div style="width:100%; display:flex; align-items:center; gap:16px">
     <img src="./Frontend//src//assets/zip.png" width="30%">
 </div>
+
 
 2 Abra dois terminais em sua IDE de preferência, aqui eu utlizo o VsCode. Em seguida abra dois terminais e acesse o projeto com o seguinte comando
 ```
 No primeiro terminal - cd Frontend (Para ter acesso ao frontend)
 
 No segundo terminal - cd Backend (Para ter acesso ao backend)
-
 ```
+
+Se baixou o projeto pelo download.zip vai precisar acessar esse caminho, caso não tenha entrado direto pela sua IDE na segunda pasta com o mesmo nome que gerou ao fazer o download.
+
+cd Desafio-Cielo-develop/Frontend
+
+cd Desafio-Cielo-develop/Backend
+```
+
 3 Instale as dependências necessárias com o comando
 ```
 npm install (Digite nos dois terminais, dentro da pasta Frontend e Backend)

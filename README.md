@@ -41,7 +41,7 @@ git clone https://github.com/Renatonapoli/Desafio-Cielo.git
 ```
 Caso não consiga pelo git clone ou esteja dando algum problema interno no github, baixe o arquivo pelo zip. Após baixar o arquivo, descompacte e sigo os passos abaixo.
 
-OBS: Verifique se possuia duas pastas dentro do projeto, Frontend e Backend. Feito pelo git clone quanto pelo download.zip.
+OBS: Verifique se possui duas pastas dentro do projeto, Frontend e Backend. Feito pelo git clone quanto pelo download.zip.
 
 <div style="width:100%; display:flex; align-items:center; gap:16px">
     <img src="./Frontend//src//assets/zip.png" width="30%">
